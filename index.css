@@ -24,12 +24,16 @@ body {
     width: 55px;
     margin: 35px 0;
     text-align: center;
+    width: 115px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+input[type=number] {
+    -moz-appearance: textfield;
+  }
 #btn-convert{
     background: white;
     color: #3D3D3D;
@@ -37,7 +41,7 @@ input::-webkit-inner-spin-button {
     border-radius: 5px;
     font-size: 16px;
     margin-bottom: 35px;
-    padding: 15px 31px;
+    padding: 15px 32px;
 }
 #main{
     display: flex;
